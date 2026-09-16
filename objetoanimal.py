@@ -36,7 +36,7 @@ class Pajaro(animal):
         super().__init__(nombre, color, especie)
         self.tipo = tipo
     def hacersonido(self):
-        return(f"Píoooo Píoooo")    
+        return(f"Píuuuu Píuuuuu")    
     def volar(self):
         return(f"{self.nombre} está volando en el cielo.")
     def presentarse (self):
@@ -44,9 +44,9 @@ class Pajaro(animal):
     def comer_gusanos(self):
         return(f"{self.nombre} está comiendo gusanos.")
 
-animal1= Perro ("Perro", "Max", "Marrón", "Labrador")
-animal2=Gato("Gato", "Luna", "Naranja", "Siamés")           
-animal3=Pajaro("Pájaro", "Piolín", "Azul", "Canario")
+animal1= Perro ("Perro", "Firulais", "Marrón", "Labrador")
+animal2=Gato("Gato", "Lupita", "Blanca ", "angora")           
+animal3=Pajaro("Pájaro", "paco", "Azul", "Canario")
 print(animal1.presentarse())
 print(animal2.presentarse())
 print(animal3.presentarse())
