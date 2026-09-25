@@ -14,7 +14,6 @@ class CuentaBancaria:
             return f"Has retirado ${monto}. Nuevo saldo: ${self.saldo:.2f}"
         else:
             return "Fondos insuficientes para realizar el retiro."
-
 "CLASES HIJAS"
 class CuentaDeAhorros(CuentaBancaria):
     def __init__(self, titular, saldo_inicial, tasa_interes):
